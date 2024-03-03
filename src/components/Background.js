@@ -4,7 +4,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton'
 
 export default function Background() {
     return(
-        <div className='d-flex justify-content-between' style={{background: '#deedd6'}}>
+        <div className='d-flex justify-content-between' style={{background: '#deedd6', maxHeight: '20vw'}}>
             {/* <Card>
                 <Card.Img src='https://www.instacart.com/image-server/x428/www.instacart.com/assets/homepage/homepage_background_full_m3_cropped-8d2d286263821da7decd7c61fb1db1eb0e3dec13e0c356277d6d3cb7484c024a.jpg' alt='Instacart Produce BGImg' />
                 <Card.ImgOverlay>
@@ -25,7 +25,7 @@ export default function Background() {
                 <p>Whatever you want from local stores, brought right to your door.</p>
             </div>
             <div>
-                <img src='https://www.instacart.com/image-server/x428/www.instacart.com/assets/homepage/homepage_background_full_m3_cropped-8d2d286263821da7decd7c61fb1db1eb0e3dec13e0c356277d6d3cb7484c024a.jpg' className='img-fluid flex-grow-1' alt='InstaCart BGImg' />
+                <img src='https://www.instacart.com/image-server/x428/www.instacart.com/assets/homepage/homepage_background_full_m3_cropped-8d2d286263821da7decd7c61fb1db1eb0e3dec13e0c356277d6d3cb7484c024a.jpg' className='img-fluid flex-grow-1' style={{maxHeight: '20vw'}} alt='InstaCart BGImg' />
             </div>
         </div>
     )
